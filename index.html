@@ -1,11 +1,19 @@
 <html>
-<head>
-<link rel="stylesheet" href="stylesheet.css"/>
-</head>
-<body id="bg">
+	<head>
+		<link rel="stylesheet" href="stylesheet.css"/>
+		<script src="write.js"></script>
+		<script>
+			async function init(){
+				await mySleepFunction(900);
+				write("whoami");
+			}
+			init();
+		</script>
+	</head>
+	<body id="bg">
 
-<div id="whoami">
-<center>$ <div id="writeable"> whoami </div> <span class="blinking-cursor">|</span></center>
-</div>
-</body>
+		<div id="whoami">
+			<center id="writeable">$<span class="blinking-cursor">|</span></center>
+		</div>
+	</body>
 </html>
