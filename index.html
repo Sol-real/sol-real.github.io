@@ -1,22 +1,32 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title> Sol's Blog </title>
-		<link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
-
-		<link rel="stylesheet" href="stylesheet.css"/>
-		<script src="write.js"></script>
-		<script>
-			async function init(){
-				await mySleepFunction(900);
-				write("whoami");
-			}
-			init();
-		</script>
-	</head>
-	<body id="bg">
-
-		<div id="whoami">
-			<center id="writeable">$<span class="blinking-cursor">|</span></center>
-		</div>
-	</body>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <section class="hero is-fullheight is-dark">
+        <div class="hero-body">
+            <div class="container">
+            <div class="columns is-vcentered is-centered">
+                <div class="column is-6">
+                    <div class="block">
+                        <h1 class="title is-2">Welcome to my Website.</h1>
+                    </div>
+                    <div class="block">
+                        <h2 class="subtitle">I am a cyber security student from Germany. I like to play CTF's in my freetime.<br>
+                        </h2>
+                    </div>
+                    <div class="block buttons">
+                        <a href="https://github.com/hydr0nium"><button class="button is-white is-outlined">Visit my Github</button></a> &nbsp;
+                        <a href="#"><button class="button is-white is-outlined">Visit my Writeups</button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
